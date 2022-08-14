@@ -8,3 +8,6 @@ Anda dapat membuka script ini di browser dengan menekan ``ctrl + k + o``, dan sc
 # Kekurangan
 - Anda harus men-refresh page untuk merestart game
 - Bot tidak memiliki intelegence/kepintaran, bot berjalan hanya berjalan acak/random
+
+# Credit
+this script made by salim :D
