@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ID">
+    <head>
+        <title>tictactoe</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <h3><a class="o" onclick="changeMode(1)">o</a> <a onclick="start();">Start TicTacToe</a> <a class="x" onclick="changeMode(2)">x</a></h3>
+        <div class="papan">
+            <div class="kotak">
+                <!--top-->
+                <div class="piece-left-top" onclick="klik(1)"></div>
+                <div class="piece-center-top" onclick="klik(2)"></div>
+                <div class="piece-right-top" onclick="klik(3)"></div>
+                <!--center-->
+                <div class="piece-left-center" onclick="klik(4)"></div>
+                <div class="piece-center-center" onclick="klik(5)"></div>
+                <div class="piece-right-center" onclick="klik(6)"></div>
+                <!--bottom-->
+                <div class="piece-left-bottom" onclick="klik(7)"></div>
+                <div class="piece-center-bottom" onclick="klik(8)"></div>
+                <div class="piece-right-bottom" onclick="klik(9)"></div>
+            </div>
+
+            <div class="line-vertical-left"></div>
+            <div class="line-vertical-center"></div>
+            <div class="line-vertical-right"></div>
+
+            <div class="line-horizontal-top"></div>
+            <div class="line-horizontal-center"></div>
+            <div class="line-horizontal-bottom"></div>
+            
+            <div class="line-cross-left"></div>
+            <div class="line-cross-right"></div>
+        </div>
+    </body>
+</html>

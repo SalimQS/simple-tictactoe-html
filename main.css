@@ -1,0 +1,192 @@
+body{
+    background-color: rgb(192, 192, 192);
+    /*---*/
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+
+    margin: 0;
+}
+.papan{
+    background-color: black;
+    margin: 20px auto;
+    height: 620px;
+    width: 620px;
+    align-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px black;
+}
+/*atas*/
+.piece-left-top{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+}
+.piece-center-top{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin-left: 210px;
+}
+.piece-right-top{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin-left: 420px;
+}
+/*tengah*/
+.piece-left-center{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin-top: 210px;
+}
+.piece-center-center{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin-left: 210px;
+    margin-top: 210px;
+}
+.piece-right-center{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin-left: 420px;
+    margin-top: 210px;
+}
+/*bawah*/
+.piece-left-bottom{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin-top: 420px;
+}
+.piece-center-bottom{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin-left: 210px;
+    margin-top: 420px;
+}
+.piece-right-bottom{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin-left: 420px;
+    margin-top: 420px;
+}
+
+.papan .kotak div:hover{
+    background-color: rgb(194, 194, 194);
+}
+.papan .kotak div{
+    text-align: center;
+    font-size: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.line-vertical-left{
+    position: absolute;
+    height: 500px;
+    width: 10px;
+    background-color: rgb(226, 14, 14);
+    margin-left: 100px;
+    margin-top: 60px;
+    display: none;
+}
+.line-vertical-center{
+    position: absolute;
+    height: 500px;
+    width: 10px;
+    background-color: rgb(226, 14, 14);
+    margin-left: 310px;
+    margin-top: 60px;
+    display: none;
+}
+.line-vertical-right{
+    position: absolute;
+    height: 500px;
+    width: 10px;
+    background-color: rgb(226, 14, 14);
+    margin-left: 520px;
+    margin-top: 60px;
+    display: none;
+}
+
+.line-horizontal-top{
+    position: absolute;
+    height: 10px;
+    width: 500px;
+    background-color: rgb(226, 14, 14);
+    margin-left: 60px;
+    margin-top: 100px;
+    display: none;
+}
+.line-horizontal-center{
+    position: absolute;
+    height: 10px;
+    width: 500px;
+    background-color: rgb(226, 14, 14);
+    margin-left: 60px;
+    margin-top: 310px;
+    display: none;
+}
+.line-horizontal-bottom{
+    position: absolute;
+    height: 10px;
+    width: 500px;
+    background-color: rgb(226, 14, 14);
+    margin-left: 60px;
+    margin-top: 520px;
+    display: none;
+}
+
+.line-cross-left{
+    position: absolute;
+    height: 610px;
+    width: 10px;
+    background-color: rgb(226, 14, 14);
+    margin-left: 300px;
+    margin-top: 10px;
+    transform: rotate(-45deg); 
+    display: none;
+}
+.line-cross-right{
+    position: absolute;
+    height: 600px;
+    width: 10px;
+    background-color: rgb(226, 14, 14);
+    margin-left: 310px;
+    margin-top: 10px;
+    transform: rotate(45deg); 
+    display: none;
+}
+
+h3{
+    width: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+
+h3 a{
+    color: rgb(114, 114, 114);
+}
+
+h3 a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.o{
+    color: rgb(159, 123, 123);
+}
