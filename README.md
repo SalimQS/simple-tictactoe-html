@@ -1,4 +1,4 @@
-# Fitur pada TicTacToe-with-html
+# Fitur
 - Anda dapat memilih ingin menggunakan x atau o dalam permainan
 - Anda harus menekan start untuk memulai bermain
 
